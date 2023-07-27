@@ -1,25 +1,6 @@
 # lens-industry
-#include<stdio.h>
-#include<stdlib.h>
-void main(){
-	  float DO,DI,HO;
-	  int n,a;
-	  char c[30];
-	  
-	 
-	  printf("Enter student name:(without spaces)\n");
-	  scanf("%s",c);
-	  printf("Select any numbers from 1 to 3 numbers\n1-find Focal Length\n2-find Magnific0ation \n3-Height Of Image\n");
-	  scanf("%d",&n);
-	  printf("Enter distance of object, distance of image , Height of object\n");
-	  scanf("%f%f%f",&DO,&DI,&HO);
-	 if(n==1)
-	 printf("The Focal length of Image = %f\n",(DO+DI)/(DO*DI));
-	 else if(n==2)
-	 printf("The Magnification of Image = %f\n",(-(DI/DO)));
-	 else if(n==3)
-	 printf("The Height Of Image = %f\n",(HO*(-(DI/DO))));
-	 else
-	 printf("Please Enter Numbers Between 1 to 3");
-	 
-}
+
+This is a c program that calculates the Focal Length, Magnification, and Height of the Image.
+This helps in Lens industry to prepare the Lens for Vehicles.
+
+It is a basic c program with out any User Interface.
